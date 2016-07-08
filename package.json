@@ -1,14 +1,14 @@
 {
-  "name": "eslint-config-standard-jsx",
-  "description": "JavaScript Standard Style JSX support - ESLint Shareable Config",
+  "name": "eslint-config-happiness-jsx",
+  "description": "JavaScript Happiness Style JSX support - ESLint Shareable Config",
   "version": "1.2.1",
   "author": {
-    "name": "Feross Aboukhadijeh",
-    "email": "feross@feross.org",
-    "url": "http://feross.org/"
+    "name": "Wes Todd",
+    "email": "wes@wesleytodd.com",
+    "url": "http://wesleytodd.com/"
   },
   "bugs": {
-    "url": "https://github.com/feross/eslint-config-standard-jsx/issues"
+    "url": "https://github.com/wesleytodd/eslint-config-happiness-jsx/issues"
   },
   "peerDependencies": {
     "eslint": "^2.1.0",
@@ -19,9 +19,10 @@
     "eslint-plugin-react": ">=2.7.1",
     "tape": "^4.0.0"
   },
-  "homepage": "https://github.com/feross/eslint-config-standard-jsx",
+  "homepage": "https://github.com/wesleytodd/eslint-config-happiness-jsx",
   "keywords": [
     "standard",
+    "happiness",
     "style checker",
     "code style",
     "code checker",
@@ -44,14 +45,16 @@
     "checker",
     "code standards",
     "JavaScript Standard Style",
+    "JavaScript Happiness Style",
     "standard style",
+    "happiness style",
     "jsx"
   ],
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/feross/eslint-config-standard-jsx.git"
+    "url": "git://github.com/wesleytodd/eslint-config-happiness-jsx.git"
   },
   "scripts": {
     "test": "tape test/*.js"
