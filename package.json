@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-happiness-jsx",
   "description": "JavaScript Happiness Style JSX support - ESLint Shareable Config",
-  "version": "1.2.1",
+  "version": "4.0.2",
   "author": {
     "name": "Wes Todd",
     "email": "wes@wesleytodd.com",
@@ -10,48 +10,45 @@
   "bugs": {
     "url": "https://github.com/wesleytodd/eslint-config-happiness-jsx/issues"
   },
-  "peerDependencies": {
-    "eslint": "^2.1.0",
-    "eslint-plugin-react": ">=2.7.1"
-  },
   "devDependencies": {
-    "eslint": "^2.1.0",
-    "eslint-plugin-react": ">=2.7.1",
-    "tape": "^4.0.0"
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^6.10.3",
+    "tape": "^4.6.3"
   },
   "homepage": "https://github.com/wesleytodd/eslint-config-happiness-jsx",
   "keywords": [
-    "standard",
-    "happiness",
-    "style checker",
-    "code style",
+    "JavaScript Happiness Style",
+    "check",
+    "checker",
+    "code",
     "code checker",
     "code linter",
-    "style linter",
-    "simple",
-    "policy",
-    "style",
-    "code",
-    "lint",
+    "code standards",
+    "code style",
+    "enforce",
     "eslint",
     "eslintconfig",
-    "jshint",
-    "jscs",
     "hint",
-    "enforce",
-    "check",
-    "verify",
+    "jscs",
+    "jshint",
+    "jsx",
+    "lint",
+    "policy",
     "quality",
-    "checker",
-    "code standards",
-    "JavaScript Standard Style",
-    "JavaScript Happiness Style",
-    "standard style",
+    "simple",
+    "happiness",
     "happiness style",
-    "jsx"
+    "style",
+    "style checker",
+    "style linter",
+    "verify"
   ],
   "license": "MIT",
   "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=3.19.0",
+    "eslint-plugin-react": ">=6.10.3"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/wesleytodd/eslint-config-happiness-jsx.git"
